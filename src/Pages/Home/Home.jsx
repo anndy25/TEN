@@ -1,8 +1,9 @@
 import React from 'react'
 import './Home.css'
 import Button from '@material-ui/core/Button';
-import Data from './Data.json'
-
+import Data from './Data.js'
+import CoverImg from './images/CoverImg.jpeg';
+import bootomGif from './images/list4.gif';
 
 const Home = () => {
     // const data1 = JSON.parse(Data);
@@ -11,7 +12,7 @@ const Home = () => {
         < >
             <div className="home-container">
                 <div className="home-image">
-                    <img  src='\CoverImg.jpeg' alt="ss" />
+                    <img  src={CoverImg} alt="ss" />
                 </div>
                 <div className="sect-1 ">
                     <h3>About Us</h3>
@@ -85,7 +86,7 @@ const Home = () => {
                                 < >
                                 <div className="sp col-lg-4 col-md-4" key={index}>
                                     <div className="sp-card">
-                                        <img className="img-card" src={elm.image} className="card-img-top" style={{width: '170px'}}alt="..." />
+                                        <img className="img-card" src={elm.image} className="card-img-top" style={{width: '170px'}} alt="..." />
                                         <div className="card-body">
                                             <h5 className="card-title text-center">{elm.name}</h5>
                                             <p className="card-text">{elm.description}</p>
@@ -98,7 +99,7 @@ const Home = () => {
                         </div>
                     </section>
                     <div id="consulting">
-                        <img src="./images/list4.gif"  id='cons-img' alt="Consulting of TEN" />
+                        <img src={bootomGif}  id='cons-img' alt="Consulting of TEN" />
                         <div className="con-sect">
                             <h1>Power of TEN Consulting</h1>
                             <button type="button" className="com-btn btn btn-light" style={{width:'20rem'}}>Explore More</button>
