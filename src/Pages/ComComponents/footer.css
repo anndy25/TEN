@@ -1,0 +1,22 @@
+
+.footer-list{
+    list-style: none;
+
+}
+.footer-list a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    margin-top:1rem;
+    background-color:whitesmoke;
+    /* position: absolute; */
+    /* margin-top: auto; */
+    /* bottom:0px !important; */
+    margin-top: auto;
+    /* height:100vh; */
+    width:100vw;
+}
+.cont-sect{
+    /* min-height:55vh; */
+}

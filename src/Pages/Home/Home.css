@@ -1,0 +1,176 @@
+.home-container{
+margin:auto;
+width:90%;
+}
+.home-image{
+    height:70vh;
+}
+.home-image img{
+    width:100%;
+    height: 100%;
+}
+/* 1st block */
+.sect-1{
+    background-color: rgb(255, 64, 64);
+    margin:2rem 0;
+}
+.sect-1 h3{
+    text-align:center;
+    padding:1rem;
+}
+.sect-sub-1{
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap-reverse;
+   
+}
+
+.sect-box-1{
+    margin: 2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.sect-box-1 img{
+    width:400px;
+}
+.sect-sub-2{
+    position: relative;
+    margin: 2rem 0;
+    height:40vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sect-sub-2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    /* background-color:aquamarine; */
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/000/479/513/original/education-cartoon-poster-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.sect-sub-2 h2{
+    margin: 1.5rem;
+}
+.com-btn{
+    border-radius: 25px !important;
+     box-shadow: 2px 2px 12px 1px rgba(0,0,0) !important;
+}
+.com-btn:hover{
+    background-color:rgb(233, 92, 92) !important;
+}
+/* box-3 */
+.box-1 {
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(216, 5, 63);
+    
+}
+.box-1 Button{
+    background-color:black;
+    width:200px;
+    font-size:1.2rem;
+    color:white;
+    margin-top: 10px;
+
+}
+.cont-box-1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
+}
+.sect-sect-1{
+    color: orangered;
+    position: absolute; 
+}
+.sect-sect-1 h2{
+    font-size: 2rem;
+} 
+
+.img-1{
+    padding:0px !important;
+    width:100%;
+    height:100%;
+}
+/* Special content */
+#sp-header{
+    text-align:center;
+    padding: 1.2rem;
+    background-color:black;
+    color: white;
+}
+
+/* Image Card */
+.img-card{
+   
+    width:100px !important;
+    height: 100px !important;
+}
+.sp-card{
+    margin-top:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+}
+.sp{
+    display:flex;
+    justify-content: center;
+    
+}
+.sp-card p{
+    text-align: center;
+}
+
+/* consulting Image */
+#consulting{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cons-img{
+    width:100%;
+    height: 300px;
+}
+.con-sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1.5rem;
+}
+
+@media (min-width:576px) and (max-width:768px){
+    .img-1{
+        width:100%;
+        height:400px;
+    }
+
+}
+@media (max-width:575px){
+    .home-container{      
+        width:100%;
+        margin: 0px !important;
+        overflow:hidden;
+        }
+}

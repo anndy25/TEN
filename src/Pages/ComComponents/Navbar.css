@@ -1,0 +1,47 @@
+.logo{
+    width:100px;
+    height:80px;
+}
+.ten-nav{
+  z-index: 1;
+  position:sticky !important;
+  top:0px !important;
+}
+input[type=text] {
+    width:95px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    -webkit-transition:width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding-left:2rem;
+  }
+  .sech{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbtn{
+    position:absolute !important;
+    left:.5rem !important;
+  }
+  .icon{
+    font-size:200% !important;
+
+  }
+  .logo{
+    width:6rem;
+    height:4rem;
+  }
+  
+  input[type=text]:focus {
+    width:200px !important;
+  }
+  .active{
+    color:rgb(236, 11, 86) !important;
+    border-bottom: 4px solid  rgb(236, 11, 86);
+  }
