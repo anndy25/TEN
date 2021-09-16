@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TEN/static/css/main.dbc5da28.chunk.css",
+    "main.js": "/TEN/static/js/main.b396d53c.chunk.js",
+    "main.js.map": "/TEN/static/js/main.b396d53c.chunk.js.map",
+    "runtime-main.js": "/TEN/static/js/runtime-main.e52fb989.js",
+    "runtime-main.js.map": "/TEN/static/js/runtime-main.e52fb989.js.map",
+    "static/js/2.3ef79852.chunk.js": "/TEN/static/js/2.3ef79852.chunk.js",
+    "static/js/2.3ef79852.chunk.js.map": "/TEN/static/js/2.3ef79852.chunk.js.map",
+    "static/js/3.38ad4e61.chunk.js": "/TEN/static/js/3.38ad4e61.chunk.js",
+    "static/js/3.38ad4e61.chunk.js.map": "/TEN/static/js/3.38ad4e61.chunk.js.map",
+    "index.html": "/TEN/index.html",
+    "static/css/main.dbc5da28.chunk.css.map": "/TEN/static/css/main.dbc5da28.chunk.css.map",
+    "static/js/2.3ef79852.chunk.js.LICENSE.txt": "/TEN/static/js/2.3ef79852.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e52fb989.js",
+    "static/js/2.3ef79852.chunk.js",
+    "static/css/main.dbc5da28.chunk.css",
+    "static/js/main.b396d53c.chunk.js"
+  ]
+}
